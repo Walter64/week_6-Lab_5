@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <h1>Welcome to my Web Site</h1>
+
+        <!-- sending data via a GET request -->
+        <form action='/name' target='_blank' method='GET'>
+            Firstname:
+            <br>
+            <input type="text" name="firstname" value="Martin">
+            <br>
+            Lastname:
+            <br>
+            <input type="text" name="lastname" value="Luther">
+            <br>
+            <input type="submit" value="Add Name">
+        </form>
+
+        <!-- sending data via a GET request -->
+        <h3>POST Method on our form</h3>        
+        <form action='/name' target='_blank' method='POST'>
+            Firstname:
+            <br>
+            <input type="text" name="firstname" value="Martin">
+            <br>
+            Lastname:
+            <br>
+            <input type="text" name="lastname" value="Luther">
+            <br>
+            <input type="submit" value="Add Name">
+        </form>
+
+    </body>
+</html>
